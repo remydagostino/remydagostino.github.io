@@ -1,9 +1,29 @@
 doctype
 html
   head
-    link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora|Raleway:100")
+    link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora|Raleway:200")
     link(rel="stylesheet" href="/main.css")
     meta(name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,height=device-height,target-densitydpi=device-dpi,user-scalable=yes")
     title Remy D'Agostino
   body
-    != yield
+    main
+      - if (current.path[0] == 'blog' && current.path[1] != 'index')
+        - var blogId = current.path[1]
+        .section
+          h1= public.blog._data[blogId].title
+          h2= public.blog._data[blogId].date
+        article.post.post--blog!= partial('blog/' + blogId)
+        .endPost
+          span Follow me on&nbsp;
+          a.callOut(href="http://twitter.com/remydagostino") twitter
+          span &nbsp;if you want to hear more.
+      - else
+        != yield
+    footer
+      a(href="/") Home
+      span ,&nbsp;
+      a(href="/blog") Blog
+      span ,&nbsp;
+      a(target="_blank" href="http://twitter.com/remydagostino") Tweet
+      span ,&nbsp;
+      a(target="_blank" href="https://github.com/remydagostino") Code

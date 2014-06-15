@@ -1,0 +1,6 @@
+.section
+  h1 Remy's Journal
+.section.section--last
+  - for blog, slug in public.blog._data
+    a(href="/blog/#{slug}")
+      h2= blog.title
