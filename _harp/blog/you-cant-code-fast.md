@@ -1,0 +1,19 @@
+I think my first job as a programmer was pretty typical. I wandered out of my undergraduate degree bleary eyed, confused and with a total feeling of inadequacy. I applied for work at some old software company and they hired me to do maintenance on their big legacy accounting system. I put on my company clothes, I sat in my cubicle and I spent nine hours a day staring at a 13" screen pressing buttons.
+
+Around that time the imposter syndrome hit me hard. I couldn't debug issues or add new features anywhere near as fast as the other developers could. I might ask for help, and at many points I did, but the senior devs didn't have time to explain their brilliance - they would ask me to step aside while they pressed the buttons. I'd sit just to their left watching the screen and not comprehending. Dead silence; and then a few minutes later the issue would be solved. 
+
+> "Just test that and just move on to your next issue. If you see anything like this again then assign it to someone else."
+
+This was an office governed by meritocracy, the faster you were at solving problems the more kudos you got. Incidentally, if you had a lot of kudos you got paid more, and you didn't have to be polite to people with less. I believed that if I stuck with this job I might just grow up to be a fast developer too. After all, what did I have to worry about? I was only 20 and the youngest person in the office, the other guys were older and had been here longer - they just had more experience. 
+
+I stayed at that job for about a year and a half. I never got fast enough to impress my bosses or co-workers. It made me miserable, so I quit to reconsider what I wanted to do with my life. It seemed pretty clear to me that I wasn't a fast programmer. I spent a lot of time arguing that we needed documentation and clear conventions or maybe even unit tests. It was a hard point to argue for, the fast programmers didn't seem to need any documentation and the only people on my side about it were the other slow programmers. I'd say I was pretty broken by my experience working in that environment and I couldn't see how any other job would be different.
+
+Luckily for me, I later started teaching myself how to develop for the web and landed a great job working for a tech startup in Brisbane. It was like a splash of cool water after hours of wandering parched through a hostile desert. In the following two years, I learned some powerful things.
+
+- Good software is built by teams. Collaboration, sharing and writing code "for humans" is what counts. Working alone is the number one thing that produces bad code.
+- Super fast programmers really do exist. I'm not one of them. Some people seem to just grok math and algorithms. If you're me then you have to find a way to contribute that doesn't promise staggering quickness.
+- If you are ever in need a super fast programmer then something has gone wrong. Having to "just get it done" is writing a blank cheque for technical debt - it doesn't matter who is cutting the code.
+
+A bit of advice that I started giving to junior devs was this. You might never get fast at programming; if that turns out to be true then you need to have another way of convincing your boss that you have value. Fast programmers get a free pass because they will always be seen as valuable - and they probably are. The best thing you can do is take the time to write code that is demonstrably correct. That means matching the designs perfectly, collaborating with others and being able to reason about your code.
+
+I think that is why the idea of functional programming appeals so much to me. It seems to go hand-in-hand with test driven development and the unix philosophy for producing code that is concise, correct and only as complex as it has to be. I can't yet be sure whether functional programming can solve all of these problems for me but I'm near certain that the process that lead me here will.
